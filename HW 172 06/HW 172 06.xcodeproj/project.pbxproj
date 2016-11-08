@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6DDA8E1D1DD17E7500333919 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA8E1C1DD17E7500333919 /* main.cpp */; };
+		6DDA8E251DD1822000333919 /* Comlex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA8E231DD1822000333919 /* Comlex.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		6DDA8E191DD17E7500333919 /* HW 172 06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW 172 06"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDA8E1C1DD17E7500333919 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6DDA8E231DD1822000333919 /* Comlex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Comlex.cpp; sourceTree = "<group>"; };
+		6DDA8E241DD1822000333919 /* Comlex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Comlex.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				6DDA8E1C1DD17E7500333919 /* main.cpp */,
+				6DDA8E241DD1822000333919 /* Comlex.hpp */,
+				6DDA8E231DD1822000333919 /* Comlex.cpp */,
 			);
 			path = "HW 172 06";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DDA8E1D1DD17E7500333919 /* main.cpp in Sources */,
+				6DDA8E251DD1822000333919 /* Comlex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
