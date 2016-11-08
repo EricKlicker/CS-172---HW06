@@ -7,3 +7,22 @@
 //
 
 #include "Comlex.hpp"
+#include <iostream>
+#include <cstdlib>
+
+
+Complex::Complex (double a, double b)
+{
+    
+}
+
+Complex::Complex(double a)
+{
+    
+    
+}
+Complex::Complex()
+{
+    
+    
+}
